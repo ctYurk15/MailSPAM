@@ -1,0 +1,115 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+.header-container
+{
+    box-shadow: 2px 2px 6px lightgreen;
+    width: 60%;
+    color: green;
+    border-radius: 7px;
+    padding: 4px;
+    font-size: 1.25em;
+    position: relative;
+    height: 9vh;
+    margin-bottom: 1vh;
+    margin-left: 20%;
+    text-align: center;
+    display: inline-block;
+}
+
+.header-content
+{
+    position: absolute;
+}
+
+.content-container
+{
+    box-shadow: 2px 2px 6px lightgreen;
+    width: 60%;
+    color: green;
+    border-radius: 7px;
+    padding: 4px;
+    font-size: 1.25em;
+    position: relative;
+    height: 50vh;
+    margin-bottom: 1vh;
+    margin-left: 20%;
+    overflow-y: scroll;
+}
+
+.input-container
+{
+    /*border: 1px solid red;*/
+    font-size: 1.25em;
+    width: 90%;
+    left: 4.9%;
+    position: relative;
+    padding: 2px;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+
+.input-label-container
+{
+    float: left;
+    position: relative;
+}
+
+.text-input
+{
+    float: right;
+    border: 0;
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px lightgreen;
+    background-color: black;
+    height: 99%;
+    color: green;
+    font-size: 20px;
+}
+
+.submit-button
+{
+    box-shadow: 1px 1px 4px lightgreen;
+    background-color: black;
+    color: green;
+    border: 0;
+    border-radius: 7px;
+    font-size: 1.25em;
+    margin: 5px;
+    width: 17%;
+    left: 41%;
+    position: relative;
+    margin-top: 3vh;
+}
+
+.submit-button:hover
+{
+    box-shadow: 2px 2px 6px lightgreen;
+    cursor: pointer;
+    color: lightgreen;
+}
+
+.result-container
+{
+    box-shadow: 2px 2px 6px lightgreen;
+    width: 60%;
+    color: green;
+    border-radius: 7px;
+    padding: 4px;
+    font-size: 1.25em;
+    position: relative;
+    height: 30vh;
+    margin-top: 3vh;
+    margin-left: 20%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.result-text-container
+{
+    display: inline-block;
+    width: 99%;
+}
